@@ -3,7 +3,6 @@ import pandas as pd
 st.set_page_config(layout="centered")
 st.sidebar.title("APPS")
 st.title("Agri-link Software")
-a = st.sidebar.button("Livestock Manager")
 b = st.sidebar.button("Price Manager")
 c = st.sidebar.button("Farm Manager")
 d = st.sidebar.button("Weather")
