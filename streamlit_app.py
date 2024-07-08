@@ -26,10 +26,6 @@ def home():
     st.write(
         "A price observer app is designed for agricultural professionals and traders to monitor market trends and prices of agricultural commodities. It provides real-time updates on commodity prices, historical data analysis, and price forecasts. This tool enables users to track market fluctuations, identify price trends, and make informed decisions on buying and selling agricultural products. By offering insights into market dynamics and competitor pricing, the price observer app helps users optimize their procurement and sales strategies to maximize profitability.")
 def ad():
-    import streamlit as st
-import pandas as pd
-import datetime
-
 # Placeholder data 
 farm_data = {
     'Farm Name': ['Farm A', 'Farm B', 'Farm C'],
