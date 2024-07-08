@@ -4,7 +4,7 @@ st.set_page_config(layout="centered")
 st.sidebar.title("APPS")
 st.title("Agri-link Software")
 b = st.sidebar.button("Price Manager")
-c = st.sidebar.button("Farm Manager",on_click=play)
+c = st.sidebar.button("Farm Manager",on_click=play())
 d = st.sidebar.button("Weather")
 e=st.sidebar.button('Back to Home Screen')
 def play():
