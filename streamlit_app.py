@@ -83,11 +83,11 @@ def ad():
         main()
 if 'page' not in st.session_state:
     st.session_state.page = 'home'
-if a:
-    st.session_state.page = 'livestock'
+if c:
+    st.session_state.page = 'farm'
 if st.session_state.page == 'home':
     home()
-elif st.session_state.page == 'livestock':
+elif st.session_state.page == 'farm':
     ad()
 if e:
         st.session_state.page = 'home'
