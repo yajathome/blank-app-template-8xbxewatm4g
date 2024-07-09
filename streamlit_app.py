@@ -11,9 +11,9 @@ def home():
     st.markdown("""
         <style>
         .body{
-            background-color:#F7E7DC;
-        </style>    
-           }""",unsafe_allow_html=True) 
+            background-color:#F7E7DC;   
+           }
+           </style>""",unsafe_allow_html=True) 
     st.write("Imagine a comprehensive website designed to empower agricultural professionals with a suite of essential tools. This platform integrates apps tailored specifically for livestock managers, offering functionalities such as real-time health monitoring, feeding schedules, and breeding insights. For farm managers, the site provides tools for crop rotation planning, equipment maintenance scheduling, and yield forecasting. Additionally, there's a price observer app that tracks market trends, helping users make informed decisions on buying and selling agricultural products. The weather assistant app offers localized forecasts, alerts for severe weather conditions, and recommendations for optimal planting and harvesting times. Together, these apps form a unified digital ecosystem that enhances efficiency, productivity, and decision-making across various aspects of agricultural management.")
     
     st.subheader("Livestock Management")
