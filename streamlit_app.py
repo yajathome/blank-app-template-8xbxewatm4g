@@ -130,14 +130,14 @@ def da():
         elif month in ["september", "october"]:
             if terrain == "plain" and 20 < temperature_celsius < 25:
                 return "The conditions are suitable for successfully planting kharif crops, and the plain terrain makes it easier."
-        elif terrain == "plateau" and 20 < temperature_celsius < 25:
-            return "You can plant kharif crops, but it would take effort."
-        elif terrain == "mountain" and 20 < temperature_celsius < 25:
-            return "The conditions are good for planting kharif crops, but it is going to be very hard to farm."
+            elif terrain == "plateau" and 20 < temperature_celsius < 25:
+                return "You can plant kharif crops, but it would take effort."
+            elif terrain == "mountain" and 20 < temperature_celsius < 25:
+                return "The conditions are good for planting kharif crops, but it is going to be very hard to farm."
+            else:
+                return "The conditions are not suitable for planting kharif crops."
         else:
-            return "The conditions are not suitable for planting kharif crops."
-    else:
-        return "The current month is not suitable for planting either rabi or kharif crops based on the given conditions."
+            return "The current month is not suitable for planting either rabi or kharif crops based on the given conditions."
 
     def main():
         st.title("Crop Recommendation Based on Weather and Terrain")
