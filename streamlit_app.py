@@ -98,7 +98,7 @@ if c:
     st.session_state.page = 'farm'
 if d:
     st.session_state.page = 'weather'
-if d:
+if b:
     st.session_state.page = 'price'
 
 if st.session_state.page == 'home':
