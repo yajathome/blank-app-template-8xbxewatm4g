@@ -99,7 +99,7 @@ def ad():
             }
             return state_to_city.get(state, state)
 
-     def get_weather(city, api_key):
+    def get_weather(city, api_key):
         url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=imperial"
         response = requests.get(url)
 
