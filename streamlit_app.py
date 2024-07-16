@@ -136,8 +136,8 @@ def da():
             return "The conditions are good for planting kharif crops, but it is going to be very hard to farm."
         else:
             return "The conditions are not suitable for planting kharif crops."
-        else:
-            return "The current month is not suitable for planting either rabi or kharif crops based on the given conditions."
+    else:
+        return "The current month is not suitable for planting either rabi or kharif crops based on the given conditions."
 
     def main():
         st.title("Crop Recommendation Based on Weather and Terrain")
