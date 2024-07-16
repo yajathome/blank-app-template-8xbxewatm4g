@@ -5,7 +5,8 @@ st.title("Agri-link Software")
 b = st.sidebar.button("Price Manager")
 c = st.sidebar.button("Farm Manager")
 d = st.sidebar.button("Weather")
-e=st.sidebar.button('Back to Home Screen')
+e = st.sidebar.button('Back to Home Screen')
+f = st.sidebar.button("TRANSLATE|अनुवाद करना|అనువదించు|ಅನುವಾದಿಸಿ|மொழிபெயர்|വിവർത്തനം ചെയ്യുക")
 st.markdown("""
     <style>
         h1 {
