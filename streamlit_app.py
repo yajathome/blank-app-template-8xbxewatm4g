@@ -89,16 +89,15 @@ def ad():
     
     if __name__ == "__main__":
         main()
-    def da():
-        def get_city(state):
-            state_to_city = {
-                "Andhra Pradesh": "Visakhapatnam",
-                "Tamil Nadu": "Chennai",
-                "Kerala": "Thiruvananthapuram",
-                "Karnataka": "Bangalore",
-            }
-            return state_to_city.get(state, state)
-
+def da():
+    def get_city(state):
+        state_to_city = {
+            "Andhra Pradesh": "Visakhapatnam",
+            "Tamil Nadu": "Chennai",
+            "Kerala": "Thiruvananthapuram",
+            "Karnataka": "Bangalore",
+        }
+        return state_to_city.get(state, state)
     def get_weather(city, api_key):
         url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=imperial"
         response = requests.get(url)
