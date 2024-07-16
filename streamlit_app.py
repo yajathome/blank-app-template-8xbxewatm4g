@@ -90,18 +90,25 @@ def ad():
         main()
 def da():
     st.write("work in proggress")
+def dad():
+    st.write('work in progress')
 if 'page' not in st.session_state:
     st.session_state.page = 'home'
 if c:
     st.session_state.page = 'farm'
 if d:
     st.session_state.page = 'weather'
+if d:
+    st.session_state.page = 'price'
+
 if st.session_state.page == 'home':
     home()
 elif st.session_state.page == 'farm':
     ad()
 elif st.session_state.page == 'weather':
     da()
+elif st.session_state.page == 'price':
+    dad()
 if e:
         st.session_state.page = 'home'
         st.experimental_rerun()
