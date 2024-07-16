@@ -134,8 +134,8 @@ def da():
             return "You can plant kharif crops, but it would take effort."
         elif terrain == "mountain" and 20 < temperature_celsius < 25:
             return "The conditions are good for planting kharif crops, but it is going to be very hard to farm."
-            else:
-                return "The conditions are not suitable for planting kharif crops."
+        else:
+            return "The conditions are not suitable for planting kharif crops."
         else:
             return "The current month is not suitable for planting either rabi or kharif crops based on the given conditions."
 
