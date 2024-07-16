@@ -161,7 +161,7 @@ def da():
                 st.error("Could not retrieve weather information.")
 
     if _name_ == "_main_":
-        main()
+        main()
 def dad():
     st.write('work in progress')
 if 'page' not in st.session_state:
