@@ -6,7 +6,7 @@ b = st.sidebar.button("Price Manager")
 c = st.sidebar.button("Farm Manager")
 d = st.sidebar.button("Weather")
 e = st.sidebar.button('Back to Home Screen')
-f = st.sidebar.button("TRANSLATE|अनुवाद करना|అనువదించు|ಅನುವಾದಿಸಿ|மொழிபெயர்|വിവർത്തനം ചെയ്യുക")
+
 st.markdown("""
     <style>
         h1 {
@@ -88,14 +88,20 @@ def ad():
     
     if __name__ == '__main__':
         main()
+def da():
+    st.write("work in proggress")
 if 'page' not in st.session_state:
     st.session_state.page = 'home'
 if c:
     st.session_state.page = 'farm'
+if d:
+    st.session_state.page = 'weather'
 if st.session_state.page == 'home':
     home()
 elif st.session_state.page == 'farm':
     ad()
+elif st.session_state.page == 'weather':
+    da()
 if e:
         st.session_state.page = 'home'
         st.experimental_rerun()
