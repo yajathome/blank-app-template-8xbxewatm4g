@@ -182,7 +182,4 @@ elif st.session_state.page == 'price':
 if e:
         st.session_state.page = 'home'
         st.experimental_rerun()
-if c:
-    audio_file = open("da.wav", "rb")
-    audio_bytes = audio_file.read()
-    st.audio(audio_bytes, format="audio/wav")
+
