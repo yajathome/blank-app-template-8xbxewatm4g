@@ -158,7 +158,7 @@ def da():
                 st.success(f"Crop Recommendation: {crop_info}")
             else:
                 st.error("Could not retrieve weather information.")
-    if _name_ == "_main_":
+    if __name__ == "__main__":
         main()
 def dad():
     st.write('work in progress')
