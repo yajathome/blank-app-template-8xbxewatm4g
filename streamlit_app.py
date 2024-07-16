@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-st.set_page_config(layout="centered")
 st.sidebar.title("APPS")
 st.title("Agri-link Software")
 b = st.sidebar.button("Price Manager")
@@ -10,9 +9,7 @@ e=st.sidebar.button('Back to Home Screen')
 st.markdown("""
     <style>
         h1 {
-            font-size: 16px;
-            text-align: center;
-            text-transform: uppercase;
+            font-size: 40px
         }
     </style>
 """, unsafe_allow_html=True)
