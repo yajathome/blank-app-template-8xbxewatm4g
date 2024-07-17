@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import requests
+st.header.title(agrilinksoftware)
 st.sidebar.title("APPS")
 st.title("Agri-link Software")
 b = st.sidebar.button("Price Manager")
