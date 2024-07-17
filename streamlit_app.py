@@ -110,7 +110,7 @@ def ad():
                 st.write(f'New task added: {task}')
     
     if __name__ == '__main__':
-        main()
+        main()
 def da():
     def get_city(state):
         state_to_city = {
