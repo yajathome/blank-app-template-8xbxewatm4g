@@ -225,12 +225,9 @@ def dad():
         else:
             data = fetch(selected_food, selected_state)
             st.write(data)
-    if 'page' not in st.session_state:
+#eeeeeeeeennnnnnnnnnnndddddddddddd            
+if 'page' not in st.session_state:
         st.session_state.page = 'home'
-#enddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
-
-if c:
-    st.session_state.page = 'farm'
 if d:
     st.session_state.page = 'weather'
 if b:
