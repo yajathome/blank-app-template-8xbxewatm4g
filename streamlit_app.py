@@ -73,7 +73,7 @@ def ad():
         st.write(f"*Location:* {crop_info['Location']}")
         st.write(f"*Area (acres):* {crop_info['Area (acres)']}")
 
-        elif page == 'Livestock Tracking':
+    elif page == 'Livestock Tracking':
             st.subheader('Livestock Tracking')
             st.write('Select a livestock to track:')
 
