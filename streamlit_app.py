@@ -161,9 +161,74 @@ def da():
     if __name__ == "__main__":
         main()
 def dad():
-    st.write('work in progress')
-if 'page' not in st.session_state:
-    st.session_state.page = 'home'
+    def fetch(selected_food, selected_state):
+    # Placeholder data for demonstration
+        data = {
+            "Apple": {
+                "Andhra Pradesh": "Apple data for Andhra Pradesh",
+                "Karnataka": "Apple data for Karnataka",
+                "Kerala": "Apple data for Kerala",
+                "Maharashtra": "Apple data for Maharashtra",
+                "Manipur": "Apple data for Manipur",
+                "Tamil Nadu": "Apple data for Tamil Nadu",
+                "Uttar Pradesh": "Apple data for Uttar Pradesh",
+                "West Bengal": "Apple data for West Bengal"
+            },
+            "Banana": {
+                "Andhra Pradesh": "Banana data for Andhra Pradesh",
+                "Karnataka": "Banana data for Karnataka",
+                "Kerala": "Banana data for Kerala",
+                "Maharashtra": "Banana data for Maharashtra",
+                "Manipur": "Banana data for Manipur",
+                "Tamil Nadu": "Banana data for Tamil Nadu",
+                "Uttar Pradesh": "Banana data for Uttar Pradesh",
+                "West Bengal": "Banana data for West Bengal"
+            },
+            "Orange": {
+                "Andhra Pradesh": "Orange data for Andhra Pradesh",
+                "Karnataka": "Orange data for Karnataka",
+                "Kerala": "Orange data for Kerala",
+                "Maharashtra": "Orange data for Maharashtra",
+                "Manipur": "Orange data for Manipur",
+                "Tamil Nadu": "Orange data for Tamil Nadu",
+                "Uttar Pradesh": "Orange data for Uttar Pradesh",
+                "West Bengal": "Orange data for West Bengal"
+            },
+            "Grapes": {
+                "Andhra Pradesh": "Grapes data for Andhra Pradesh",
+                "Karnataka": "Grapes data for Karnataka",
+                "Kerala": "Grapes data for Kerala",
+                "Maharashtra": "Grapes data for Maharashtra",
+                "Manipur": "Grapes data for Manipur",
+                "Tamil Nadu": "Grapes data for Tamil Nadu",
+                "Uttar Pradesh": "Grapes data for Uttar Pradesh",
+                "West Bengal": "Grapes data for West Bengal"
+            }
+        }
+
+    # Get the specific data based on selected commodity and state
+        return data.get(selected_food, {}).get(selected_state, "No data available for the selected combination.")
+
+
+# Streamlit UI
+    st.title("Data Fetcher")
+
+# Dropdowns for selecting commodity and state
+    selected_food = st.selectbox("Select Commodity:", ["--Select--", "Apple", "Banana", "Orange", "Grapes"])
+    selected_state = st.selectbox("Select State:",
+                                  ["--Select--", "Andhra Pradesh", "Karnataka", "Kerala", "Maharashtra", "Manipur",
+                                   "Tamil Nadu", "Uttar Pradesh", "West Bengal"])
+
+    if st.button("Fetch Data"):
+        if selected_food == "--Select--" or selected_state == "--Select--":
+            st.error("Please select both commodity and state.")
+        else:
+            data = fetch(selected_food, selected_state)
+            st.write(data)
+    if 'page' not in st.session_state:
+        st.session_state.page = 'home'
+#enddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+
 if c:
     st.session_state.page = 'farm'
 if d:
