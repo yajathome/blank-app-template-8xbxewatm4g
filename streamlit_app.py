@@ -73,9 +73,9 @@ def ad():
         st.write(f"*Location:* {crop_info['Location']}")
         st.write(f"*Area (acres):* {crop_info['Area (acres)']}")
 
-            elif page == 'Livestock Tracking':
-                st.subheader('Livestock Tracking')
-                st.write('Select a livestock to track:')
+        elif page == 'Livestock Tracking':
+            st.subheader('Livestock Tracking')
+            st.write('Select a livestock to track:')
 
             selected_livestock = st.selectbox('Select Livestock', df['Livestock'].unique())
             livestock_info = df[df['Livestock'] == selected_livestock].iloc[0]
