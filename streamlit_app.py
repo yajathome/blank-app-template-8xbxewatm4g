@@ -228,6 +228,8 @@ def dad():
 #eeeeeeeeennnnnnnnnnnndddddddddddd            
 if 'page' not in st.session_state:
         st.session_state.page = 'home'
+if c:
+    st.session_state.page = 'farm'
 if d:
     st.session_state.page = 'weather'
 if b:
