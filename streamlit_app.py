@@ -62,11 +62,11 @@ def ad():
             st.write(df)  # Display farm data
 
         elif page == 'Crop Management':
-            st.subheader('Crop Management')
-            st.write('Select a crop to manage:')
+        st.subheader('Crop Management')
+        st.write('Select a crop to manage:')
 
-            selected_crop = st.selectbox('Select Crop', df['Crop'].unique())
-            crop_info = df[df['Crop'] == selected_crop].iloc[0]
+        selected_crop = st.selectbox('Select Crop', df['Crop'].unique())
+        crop_info = df[df['Crop'] == selected_crop].iloc[0]
 
         st.write(f"*Crop Name:* {crop_info['Crop']}")
         st.write(f"*Farm Name:* {crop_info['Farm Name']}")
