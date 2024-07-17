@@ -69,9 +69,9 @@ def ad():
             crop_info = df[df['Crop'] == selected_crop].iloc[0]
 
         st.write(f"*Crop Name:* {crop_info['Crop']}")
-                st.write(f"*Farm Name:* {crop_info['Farm Name']}")
-                st.write(f"*Location:* {crop_info['Location']}")
-                st.write(f"*Area (acres):* {crop_info['Area (acres)']}")
+        st.write(f"*Farm Name:* {crop_info['Farm Name']}")
+        st.write(f"*Location:* {crop_info['Location']}")
+        st.write(f"*Area (acres):* {crop_info['Area (acres)']}")
 
         elif page == 'Livestock Tracking':
             st.subheader('Livestock Tracking')
