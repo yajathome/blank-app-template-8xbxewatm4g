@@ -8,13 +8,6 @@ c = st.sidebar.button("Farm Manager")
 d = st.sidebar.button("Weather")
 e = st.sidebar.button('Back to Home Screen')
 
-st.markdown("""
-    <style>
-        h1 {
-            font-size: 40px
-        }
-    </style>
-""", unsafe_allow_html=True)
 def home():
 
     st.write("Imagine a comprehensive website designed to empower agricultural professionals with a suite of essential tools. This platform integrates apps tailored specifically for livestock managers, offering functionalities such as real-time health monitoring, feeding schedules, and breeding insights. For farm managers, the site provides tools for crop rotation planning, equipment maintenance scheduling, and yield forecasting. Additionally, there's a price observer app that tracks market trends, helping users make informed decisions on buying and selling agricultural products. The weather assistant app offers localized forecasts, alerts for severe weather conditions, and recommendations for optimal planting and harvesting times. Together, these apps form a unified digital ecosystem that enhances efficiency, productivity, and decision-making across various aspects of agricultural management.")
