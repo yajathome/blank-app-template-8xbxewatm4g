@@ -7,6 +7,13 @@ b = st.sidebar.button("Price Manager")
 c = st.sidebar.button("Farm Manager")
 d = st.sidebar.button("Weather")
 e = st.sidebar.button('Back to Home Screen')
+st.markdown("""
+    <style>
+        div[data-testid="appview-container.st-emotion-cache-1yiq2ps.ea3mdgi9"]
+        background: rgb(34,193,195);
+        background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    </style>
+""",unsafe_allow_html=True)
 
 def home():
 
