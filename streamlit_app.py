@@ -9,7 +9,7 @@ d = st.sidebar.button("Weather")
 e = st.sidebar.button('Back to Home Screen')
 st.markdown("""
     <style>
-        section[data-testid="main.st-emotion-cache-bm2z3a.ea3mdgi8"]{
+        section[data-testid="stsidebar"]{
     /* Style the whole sidebar */
         .css-1d391kg {
             background-color: #f0f0f0;
