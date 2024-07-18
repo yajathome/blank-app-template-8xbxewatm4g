@@ -9,9 +9,8 @@ d = st.sidebar.button("Weather")
 e = st.sidebar.button('Back to Home Screen')
 st.markdown("""
     <style>
-        div[data-testid="main.st-emotion-cache-bm2z3a.ea3mdgi9"]
-        background: rgb(34,193,195);
-        background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+        background-image: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366");
+        background-size: cover;
     </style>
 """,unsafe_allow_html=True)
 
