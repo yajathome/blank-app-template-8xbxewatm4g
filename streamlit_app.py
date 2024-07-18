@@ -9,6 +9,7 @@ d = st.sidebar.button("Weather")
 e = st.sidebar.button('Back to Home Screen')
 st.markdown("""
     <style>
+        section[data-testid="main.st-emotion-cache-bm2z3a.ea3mdgi8"]
         background-image: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366");
         background-size: cover;
     </style>
