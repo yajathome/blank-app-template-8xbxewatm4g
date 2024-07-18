@@ -10,10 +10,21 @@ e = st.sidebar.button('Back to Home Screen')
 st.markdown("""
     <style>
         section[data-testid="main.st-emotion-cache-bm2z3a.ea3mdgi8"]{
-        background-color: #e5e5f7;
-opacity: 0.8;
-background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #444cf755, #444cf7 );
-        }
+    /* Style the whole sidebar */
+        .css-1d391kg {
+            background-color: #f0f0f0;
+            padding: 10px;
+    }
+    /* Style sidebar headers */
+        .css-1d391kg h1 {
+            color: red;
+            font-size: 24px;
+    }
+    /* Style sidebar paragraphs */
+        .css-1d391kg p {
+            color: blue;
+            font-size: 18px;
+            }
     </style>
 """,unsafe_allow_html=True)
 
