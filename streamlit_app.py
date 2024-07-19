@@ -9,10 +9,13 @@ d = st.sidebar.button("Weather")
 e = st.sidebar.button('Back to Home Screen')
 st.markdown(f"""
         <style>
-        .stApp {{
-            background-image: url("https://www.bing.com/ck/a?!&&p=68e02773779ce84dJmltdHM9MTcyMTM0NzIwMCZpZ3VpZD0xYjg4Yjg4Ny1hNTkyLTZlMzMtMDBmMy1hYzBmYTQ0MDZmZjMmaW5zaWQ9NTU3Ng&ptn=3&ver=2&hsh=3&fclid=1b88b887-a592-6e33-00f3-ac0fa4406ff3&u=a1L2ltYWdlcy9zZWFyY2g_cT1hYnN0cmFjdCUyMGxlYXZlcyZGT1JNPUlRRlJCQSZpZD05ODVFRkI5ODNGNzgyOUJGQkJFNDMzNDY0NEY1NEFDNTQ2ODhFOUE0&ntb=1");
-            background-size: cover;
-        }}
+        .st-emotion-cache-6qob1r {
+                    position: relative;
+                    height: 100%;
+                    width: 100%;
+                    overflow: overlay;
+                    background-color: azure;
+}
         </style>
         """,
         unsafe_allow_html=True
