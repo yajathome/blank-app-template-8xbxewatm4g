@@ -7,12 +7,11 @@ b = st.sidebar.button("Price Manager")
 c = st.sidebar.button("Farm Manager")
 d = st.sidebar.button("Weather")
 e = st.sidebar.button('Back to Home Screen')
-st.markdown(f"""
+st.markdown("""
         <style>
-        .st-emotion-cache-6qob1r {
-                
-                    background-color: azure;
-}
+                .st-emotion-cache-6qob1r {
+                        background-color: azure;
+                        }
         </style>
         """,
         unsafe_allow_html=True
