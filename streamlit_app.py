@@ -31,6 +31,20 @@ st.markdown("""
                     flex: 1 1 0%;
                     flex-direction: column;
                     gap: 2rem;
+                    }
+                
+
+                .st-emotion-cache-1n4a2v9 {
+                    position: fixed;
+                    top: 0px;
+                    left: 0px;
+                    right: 0px;
+                    height: 3.75rem;
+                    background: rgb(0, 0, 0);
+                    outline: none;
+                    z-index: 999990;
+                    display: block;
+                    }
 
         </style> 
     """,unsafe_allow_html=True)
