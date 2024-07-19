@@ -37,19 +37,6 @@ st.markdown("""
                     overflow: auto;
                     -webkit-box-align: center;
                     align-items: center;
-                    background: rgb(2,0,36);
-                    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-                    }
-                    
-
-                .st-emotion-cache-bm2z3a {
-                    display: flex;
-                    flex-direction: column;
-                    width: 100%;
-                    overflow: auto;
-                    -webkit-box-align: center;
-                    align-items: center;
-                    color: white;
                     background: rgb(4, 1, 43);
                     background: linear-gradient(0deg, rgba(4, 1, 43, 1) 0%, rgba(0, 0, 0, 1) 100%);
                     }
