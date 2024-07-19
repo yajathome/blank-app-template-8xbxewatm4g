@@ -20,7 +20,7 @@ st.markdown("""
                     align-items: center;
                     inset: 0px;
                     background: rgb(30, 21, 112);
-                    #background: linear-gradient(0deg, rgba(30, 21, 112, 1) 0%, rgba(0, 0, 0, 1) 100%);
+                    background: linear-gradient(0deg, rgba(30, 21, 112, 1) 0%, rgba(0, 0, 0, 1) 100%);
                     }
         </style> 
     """,unsafe_allow_html=True)
