@@ -120,9 +120,9 @@ def dad():
     # Placeholder data for demonstration
         data = {
             "Apple": {
-                "Andhra Pradesh": "Apple data for Andhra Pradesh",
-                "Karnataka": "Apple data for Karnataka",
-                "Kerala": "Apple data for Kerala",
+                "Andhra Pradesh": "220",
+                "Karnataka": "170",
+                "Kerala": "153",
                 "Maharashtra": "Apple data for Maharashtra",
                 "Manipur": "Apple data for Manipur",
                 "Tamil Nadu": "Apple data for Tamil Nadu",
@@ -130,9 +130,9 @@ def dad():
                 "West Bengal": "Apple data for West Bengal"
             },
             "Banana": {
-                "Andhra Pradesh": "Banana data for Andhra Pradesh",
-                "Karnataka": "Banana data for Karnataka",
-                "Kerala": "Banana data for Kerala",
+                "Andhra Pradesh": "143",
+                "Karnataka": "143",
+                "Kerala": "59",
                 "Maharashtra": "Banana data for Maharashtra",
                 "Manipur": "Banana data for Manipur",
                 "Tamil Nadu": "Banana data for Tamil Nadu",
@@ -140,9 +140,9 @@ def dad():
                 "West Bengal": "Banana data for West Bengal"
             },
             "Orange": {
-                "Andhra Pradesh": "Orange data for Andhra Pradesh",
-                "Karnataka": "Orange data for Karnataka",
-                "Kerala": "Orange data for Kerala",
+                "Andhra Pradesh": "61",
+                "Karnataka": "20.6",
+                "Kerala": "65",
                 "Maharashtra": "Orange data for Maharashtra",
                 "Manipur": "Orange data for Manipur",
                 "Tamil Nadu": "Orange data for Tamil Nadu",
@@ -150,9 +150,9 @@ def dad():
                 "West Bengal": "Orange data for West Bengal"
             },
             "Grapes": {
-                "Andhra Pradesh": "Grapes data for Andhra Pradesh",
-                "Karnataka": "Grapes data for Karnataka",
-                "Kerala": "Grapes data for Kerala",
+                "Andhra Pradesh": "130",
+                "Karnataka": "90",
+                "Kerala": "90",
                 "Maharashtra": "Grapes data for Maharashtra",
                 "Manipur": "Grapes data for Manipur",
                 "Tamil Nadu": "Grapes data for Tamil Nadu",
