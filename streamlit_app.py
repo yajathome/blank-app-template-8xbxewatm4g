@@ -9,9 +9,9 @@ d = st.sidebar.button("Weather")
 e = st.sidebar.button('Back to Home Screen')
 st.markdown("""
     <style>
-        section[data-testid="stsidebar"] div[style*="flex-direction: column;"] {
+        section[data-testid="stSidebarContent"] div[style*="flex-direction: column;"] {
     /* Style the whole sidebar */
-        .css-1d391kg {
+        
             background-color: #f0f0f0;
             padding: 10px;
     }
