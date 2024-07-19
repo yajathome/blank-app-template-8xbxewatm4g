@@ -20,7 +20,7 @@ st.markdown("""
                     -webkit-box-pack: start;
                     
                     -webkit-box-align: stretch;
-                    align-items: stretch;
+                    
                     
                     inset: 0px;
                     align-items: center;
