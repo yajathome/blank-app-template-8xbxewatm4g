@@ -15,15 +15,15 @@ st.markdown("""
                         }
                  
                .st-emotion-cache-bm2z3a {
-                    display: flex;
-                    flex-direction: row;
+                    
+                    
                     -webkit-box-pack: start;
-                    place-content: flex-start;
+                    
                     -webkit-box-align: stretch;
                     align-items: stretch;
-                    position: absolute;
+                    
                     inset: 0px;
-                    overflow: hidden;
+                    
                     background: rgb(30, 21, 112);
                     background: linear-gradient(0deg, rgba(30, 21, 112, 1) 0%, rgba(0, 0, 0, 1) 100%);
                     }
