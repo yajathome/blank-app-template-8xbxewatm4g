@@ -30,16 +30,18 @@ st.markdown("""
                     user-select: none;
                     background: #ffffff;
                     border: 1px solid rgba(250, 250, 250, 0.2);
-                .st-emotion-cache-bm2z3a {
+               .st-emotion-cache-1yiq2ps {
                     display: flex;
-                    flex-direction: column;
-                    width: 100%;
-                    overflow: auto;
-                    -webkit-box-align: center;
-                    align-items: center;
-                    background: rgb(4, 1, 43);
-                    background: linear-gradient(0deg, rgba(4, 1, 43, 1) 0%, rgba(0, 0, 0, 1) 100%);
-                    }
+                    flex-direction: row;
+                    -webkit-box-pack: start;
+                    place-content: flex-start;
+                    -webkit-box-align: stretch;
+                    align-items: stretch;
+                    position: absolute;
+                    inset: 0px;
+                    overflow: hidden;
+                    background: rgb(30, 21, 112);
+                    background: linear-gradient(0deg, rgba(30, 21, 112, 1) 0%, rgba(0, 0, 0, 1) 100%);
         </style> 
     """,unsafe_allow_html=True)
 
