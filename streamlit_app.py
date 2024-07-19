@@ -53,7 +53,8 @@ st.markdown("""
                     background: rgb(4, 1, 43);
                     background: linear-gradient(0deg, rgba(4, 1, 43, 1) 0%, rgba(0, 0, 0, 1) 100%);
                     }
-    )
+        </style> 
+    """,unsafe_allow_html=True)
 
 def home():
 
