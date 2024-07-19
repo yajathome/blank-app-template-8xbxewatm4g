@@ -10,7 +10,7 @@ e = st.sidebar.button('Back to Home Screen')
 st.markdown("""
         <style>
                 .st-emotion-cache-6qob1r {
-                        background-image: url('th.jfif');
+                        background-image: url("th.jfif");
                         }
         </style>
         """,
