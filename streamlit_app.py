@@ -30,7 +30,7 @@ st.markdown("""
                     user-select: none;
                     background: #ffffff;
                     border: 1px solid rgba(250, 250, 250, 0.2);
-               .st-emotion-cache-1yiq2p {
+               .st-emotion-cache-bm2z3a {
                     display: flex;
                     flex-direction: row;
                     -webkit-box-pack: start;
