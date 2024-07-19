@@ -14,19 +14,19 @@ st.markdown("""
                         background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
                         }
                  
-               .st-emotion-cache-bm2z3a {
+              # .st-emotion-cache-bm2z3a {
                     
                     
-                    -webkit-box-pack: start;
+               #     -webkit-box-pack: start;
                     
-                    -webkit-box-align: stretch;
-                    align-items: stretch;
+                #    -webkit-box-align: stretch;
+                 #   align-items: stretch;
                     
-                    inset: 0px;
+                  #  inset: 0px;
                     
-                    background: rgb(30, 21, 112);
-                    background: linear-gradient(0deg, rgba(30, 21, 112, 1) 0%, rgba(0, 0, 0, 1) 100%);
-                    }
+                   # background: rgb(30, 21, 112);
+                    #background: linear-gradient(0deg, rgba(30, 21, 112, 1) 0%, rgba(0, 0, 0, 1) 100%);
+                    $}
         </style> 
     """,unsafe_allow_html=True)
 
