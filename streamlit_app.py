@@ -29,8 +29,17 @@ st.markdown("""
                     width: auto;
                     user-select: none;
                     background: #ffffff;
-                    border: 1px solid rgba(250, 250, 250, 0.2);       
-        </style>
+                    border: 1px solid rgba(250, 250, 250, 0.2);
+                .st-emotion-cache-bm2z3a {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    overflow: auto;
+                    -webkit-box-align: center;
+                    align-items: center;
+                    background: rgb(2,0,36);
+                    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        </style> 
         """,
         unsafe_allow_html=True
     )
