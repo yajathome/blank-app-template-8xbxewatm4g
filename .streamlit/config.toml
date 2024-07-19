@@ -1,7 +1,8 @@
 [theme]
-base="dark"
-secondaryBackgroundColor="#ffffff"
-textColor="#000000"
+backgroundColor="#000000"
+secondaryBackgroundColor="#000000"
+textColor="#ffffff"
 font="monospace"
+
 
 
