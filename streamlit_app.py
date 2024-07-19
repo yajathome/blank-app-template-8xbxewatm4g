@@ -10,8 +10,8 @@ e = st.sidebar.button('Back to Home Screen')
 st.markdown("""
         <style>
                 .st-emotion-cache-6qob1r {
-                        background: rgb(34,193,195);
-                        background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+                        background: rgb(131,58,180);
+                        background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
                         }
                  
                 .st-emotion-cache-bm2z3a {
