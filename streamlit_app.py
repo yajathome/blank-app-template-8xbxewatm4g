@@ -28,8 +28,7 @@ st.markdown("""
                     color: inherit;
                     width: auto;
                     user-select: none;
-                    background: rgb(34,193,195);
-                    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(100,230,54,1) 100%);
+                    background: #ffffff;
                     border: 1px solid rgba(250, 250, 250, 0.2);       
         </style>
         """,
