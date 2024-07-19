@@ -17,16 +17,16 @@ st.markdown("""
               # .st-emotion-cache-bm2z3a {
                     
                     
-               #     -webkit-box-pack: start;
+                    -webkit-box-pack: start;
                     
-                #    -webkit-box-align: stretch;
-                 #   align-items: stretch;
+                    -webkit-box-align: stretch;
+                    align-items: stretch;
                     
-                  #  inset: 0px;
-                    
-                   # background: rgb(30, 21, 112);
+                    inset: 0px;
+                    align-items: center;
+                    background: rgb(30, 21, 112);
                     #background: linear-gradient(0deg, rgba(30, 21, 112, 1) 0%, rgba(0, 0, 0, 1) 100%);
-                    $}
+                    }
         </style> 
     """,unsafe_allow_html=True)
 
