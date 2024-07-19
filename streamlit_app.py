@@ -10,9 +10,6 @@ e = st.sidebar.button('Back to Home Screen')
 st.markdown(f"""
         <style>
         .st-emotion-cache-6qob1r {
-                    position: relative;
-                    height: 100%;
-                    width: 100%;
                     overflow: overlay;
                     background-color: azure;
 }
