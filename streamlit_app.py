@@ -23,7 +23,7 @@ st.markdown("""
                     
                     
                     inset: 0px;
-                    align-items: center;
+                    
                     background: rgb(30, 21, 112);
                     #background: linear-gradient(0deg, rgba(30, 21, 112, 1) 0%, rgba(0, 0, 0, 1) 100%);
                     }
