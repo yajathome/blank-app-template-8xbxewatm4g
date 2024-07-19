@@ -7,26 +7,16 @@ b = st.sidebar.button("Price Manager")
 c = st.sidebar.button("Farm Manager")
 d = st.sidebar.button("Weather")
 e = st.sidebar.button('Back to Home Screen')
-st.markdown("""
-    <style>
-        section[data-testid="stSidebarContent"] div[style*="flex-direction: column;"] {
-    /* Style the whole sidebar */
-        
-            background-color: #f0f0f0;
-            padding: 10px;
-    }
-    /* Style sidebar headers */
-        .css-1d391kg h1 {
-            color: red;
-            font-size: 24px;
-    }
-    /* Style sidebar paragraphs */
-        .css-1d391kg p {
-            color: blue;
-            font-size: 18px;
-            }
-    </style>
-""",unsafe_allow_html=True)
+st.markdown(f"""
+        <style>
+        .stApp {{
+            background-image: url("./static/your_image.jpg");
+            background-size: cover;
+        }}
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
 
 def home():
 
