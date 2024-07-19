@@ -44,6 +44,7 @@ st.markdown("""
                     outline: none;
                     z-index: 999990;
                     display: block;
+                    background-color:#75cbdd;
                     }
 
         </style> 
