@@ -13,6 +13,24 @@ st.markdown("""
                         background: rgb(34,193,195);
                         background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
                         }
+                 .st-emotion-cache-1tskniz {
+                    display: inline-flex;
+                    -webkit-box-align: center;
+                    align-items: center;
+                    -webkit-box-pack: center;
+                    justify-content: center;
+                    font-weight: 400;
+                    padding: 0.25rem 0.75rem;
+                    border-radius: 0.5rem;
+                    min-height: 2.5rem;
+                    margin: 0px;
+                    line-height: 1.6;
+                    color: inherit;
+                    width: auto;
+                    user-select: none;
+                    background: rgb(34,193,195);
+                    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(100,230,54,1) 100%);
+                    border: 1px solid rgba(250, 250, 250, 0.2);       
         </style>
         """,
         unsafe_allow_html=True
