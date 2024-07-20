@@ -20,12 +20,10 @@ st.markdown("""
                     -webkit-box-align: stretch;
                     align-items: center;
                     inset: 0px;
-                    #background: rgb(44,2,107);
-                    #background: linear-gradient(0deg, rgba(44,2,107,1) 0%, rgba(15,21,106,1) 50%, rgba(0,0,0,1) 100%);
+                    background: rgb(44,2,107);
+                    background: linear-gradient(0deg, rgba(44,2,107,1) 0%, rgba(15,21,106,1) 50%, rgba(0,0,0,1) 100%);
                     
-                    opacity: 0.8;
-                    background-image:  linear-gradient(#444cf7 1px, transparent 1px), linear-gradient(to right, #444cf7 1px, #e5e5f7 1px);
-                    background-size: 20px 20px;
+                    
                     }
                 .st-emotion-cache-14vq8o {
                     width: 243px;
