@@ -18,7 +18,7 @@ st.markdown("""
                     -webkit-box-align: stretch;
                     align-items: center;
                     inset: 0px;
-                    background-image:url("https://i.pinimg.com/736x/42/31/bd/4231bd647fdd3a30cb9bfaa99bb2bfb0.jpg");
+                    background-image:url("https://th.bing.com/th/id/OIP.aKU_RXGCif_SbhyAFOkXPwHaEK?w=308&h=180&c=7&r=0&o=5&dpr=1.8&pid=1.7");
                     background-filter:blur(10px);
                     
                     
