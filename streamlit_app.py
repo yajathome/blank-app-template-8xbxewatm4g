@@ -20,6 +20,7 @@ st.markdown("""
                     align-items: center;
                     inset: 0px;
                     background-image:url("https://i.pinimg.com/736x/42/31/bd/4231bd647fdd3a30cb9bfaa99bb2bfb0.jpg");
+                    background-filter:blur(10px);
                     
                     
                     
