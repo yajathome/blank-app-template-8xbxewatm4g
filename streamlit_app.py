@@ -20,8 +20,8 @@ st.markdown("""
                     -webkit-box-align: stretch;
                     align-items: center;
                     inset: 0px;
-                    background: rgb(44,2,107);
-                    background: linear-gradient(0deg, rgba(44,2,107,1) 0%, rgba(15,21,106,1) 50%, rgba(0,0,0,1) 100%);
+                    background-image:url("https://i.pinimg.com/736x/42/31/bd/4231bd647fdd3a30cb9bfaa99bb2bfb0.jpg");
+                    
                     
                     
                     }
