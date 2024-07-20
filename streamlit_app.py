@@ -46,8 +46,12 @@ st.markdown("""
                     background: #000000;
                     
                     }
-
-        </style> 
+                st-emotion-cache-1bygbzt {
+                    width: 531.286px;
+                    position: relative;
+                    background-color: wheat;
+                    border-radius: 20px;
+                } 
     """,unsafe_allow_html=True)
 
 def home():
