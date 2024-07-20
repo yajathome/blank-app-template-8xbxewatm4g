@@ -58,7 +58,14 @@ st.markdown("""
                     word-break: break-word;
                     background-color: wheat;
                     border-radius:20px;
+                    
                 }
+                .st-emotion-cache-asc41u {
+                    word-break: break-word;
+                    text-wrap: pretty;
+                    background-color: wheat;
+                    border-radius: 20px;
+                {
     """,unsafe_allow_html=True)
 
 def home():
