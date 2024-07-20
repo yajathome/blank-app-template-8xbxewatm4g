@@ -31,7 +31,7 @@ st.markdown("""
                     display: flex;
                     flex: 1 1 0%;
                     flex-direction: column;
-                    gap: 4rem;
+                    gap: 6rem;
                     }
                 
 
