@@ -57,6 +57,7 @@ st.markdown("""
                 .st-emotion-cache-16w7b7i p {
                     word-break: break-word;
                     background-color: wheat;
+                    border-radius:20px;
                 }
     """,unsafe_allow_html=True)
 
