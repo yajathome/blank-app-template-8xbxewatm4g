@@ -50,19 +50,19 @@ st.markdown("""
                 .st-emotion-cache-1bygbzt {
                     width: 531.286px;
                     position: relative;
-                    background-color: wheat;
+                    #background-color: wheat;
                     border-radius: 20px;
                 } 
                 .st-emotion-cache-16w7b7i p {
                     word-break: break-word;
-                    background-color: wheat;
+                    #background-color: wheat;
                     border-radius:20px;
                     
                 }
                 .st-emotion-cache-asc41u {
                     word-break: break-word;
                     text-wrap: pretty;
-                    background-color: wheat;
+                   # background-color: wheat;
                     border-radius: 20px;
                     padding:20px;
                 {
