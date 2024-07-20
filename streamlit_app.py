@@ -54,6 +54,10 @@ st.markdown("""
                     background-color: wheat;
                     border-radius: 20px;
                 } 
+                .st-emotion-cache-16w7b7i p {
+                    word-break: break-word;
+                    background-color: wheat;
+                }
     """,unsafe_allow_html=True)
 
 def home():
