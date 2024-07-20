@@ -65,6 +65,7 @@ st.markdown("""
                     text-wrap: pretty;
                     background-color: wheat;
                     border-radius: 20px;
+                    padding:20px;
                 {
     """,unsafe_allow_html=True)
 
