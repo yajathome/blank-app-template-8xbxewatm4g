@@ -10,7 +10,7 @@ e = st.sidebar.button('Back to Home Screen')
 st.markdown("""
         <style>
                 .st-emotion-cache-6qob1r {
-                        background-image:("https://th.bing.com/th/id/OIP.D7OlIieYTsYfFHfIVfMmMAHaH_?w=189&h=205&c=7&r=0&o=5&dpr=1.8&pid=1.7");
+                        background-image:("https://th.bing.com/th/id/OIP.P3PVhihrnuTHBy_Nbjw2FQHaHa?w=205&h=205&c=7&r=0&o=5&dpr=1.8&pid=1.7");
                         }
                  
                 .st-emotion-cache-bm2z3a {
