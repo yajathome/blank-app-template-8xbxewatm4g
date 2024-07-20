@@ -77,6 +77,7 @@ st.markdown("""
                     z-index: 999990;
                     display: block;
                     background-color:rgba(0,0,0);
+                    }
     """,unsafe_allow_html=True)
 
 def home():
