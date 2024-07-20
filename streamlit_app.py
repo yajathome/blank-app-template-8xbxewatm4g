@@ -46,7 +46,7 @@ st.markdown("""
                     background: #000000;
                     
                     }
-                st-emotion-cache-1bygbzt {
+                .st-emotion-cache-1bygbzt {
                     width: 531.286px;
                     position: relative;
                     background-color: wheat;
