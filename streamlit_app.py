@@ -45,7 +45,8 @@ st.markdown("""
                     outline: none;
                     z-index: 999990;
                     display: block;
-                    background-color:#75cbdd;
+                    background: rgb(13,1,91);
+                    background: linear-gradient(0deg, rgba(13,1,91,1) 0%, rgba(15,21,106,1) 50%, rgba(0,0,0,1) 100%);
                     }
 
         </style> 
