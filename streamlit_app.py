@@ -316,6 +316,7 @@ def dad():
         else:
             data = fetch(selected_food, selected_state)
             st.write(data)
+    st.write("all data is per kg and and data may be incorrect")
 #eeeeeeeeennnnnnnnnnnndddddddddddd            
 if 'page' not in st.session_state:
         st.session_state.page = 'home'
