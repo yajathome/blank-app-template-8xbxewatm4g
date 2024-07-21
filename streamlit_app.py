@@ -50,7 +50,7 @@ st.markdown("""
                 .st-emotion-cache-1bygbzt {
                     width: 531.286px;
                     position: relative;
-                    #background-color: wheat;
+                    
                     border-radius: 20px;
                 } 
                 .st-emotion-cache-16w7b7i p {
@@ -81,6 +81,15 @@ st.markdown("""
                     z-index: 999990;
                     display: block;
                     background-color:rgba(0,0,0);
+                    }
+                    .st-emotion-cache-1lp0bo3 {
+                            width: 243px;
+                            position: relative;
+                            display: flex;
+                            flex: 1 1 0%;
+                            flex-direction: column;
+                            gap: 1rem;
+                            color: white;
                     }
     """,unsafe_allow_html=True)
 
