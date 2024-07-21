@@ -82,14 +82,14 @@ st.markdown("""
                     display: block;
                     background-color:rgba(0,0,0);
                     }
-                    .st-emotion-cache-1lp0bo3 {
-                            width: 243px;
-                            position: relative;
-                            display: flex;
-                            flex: 1 1 0%;
-                            flex-direction: column;
-                            gap: 1rem;
-                            color: white;
+                .st-emotion-cache-1lp0bo3 {
+                    width: 243px;
+                    position: relative;
+                    display: flex;
+                    flex: 1 1 0%;
+                    flex-direction: column;
+                    gap: 1rem;
+                    color: white;
                     }
     """,unsafe_allow_html=True)
 
