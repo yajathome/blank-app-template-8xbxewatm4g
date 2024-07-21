@@ -255,44 +255,40 @@ def dad():
     # Placeholder data for demonstration
         data = {
             "Apple": {
-                "Andhra Pradesh": "220",
-                "Karnataka": "170",
-                "Kerala": "153",
-                "Maharashtra": "Apple data for Maharashtra",
-                "Manipur": "Apple data for Manipur",
-                "Tamil Nadu": "Apple data for Tamil Nadu",
-                "Uttar Pradesh": "Apple data for Uttar Pradesh",
-                "West Bengal": "Apple data for West Bengal"
+                "Andhra Pradesh": "apple in andhra pradesh costs 220 rupees",
+                "Karnataka": "apple in karnataka costs 170 rupees",
+                "Kerala": "apple in kerla costs 153 rupees",
+                "Manipur": "Apple cost is 220 per kg in Manipur",
+                "Tamil Nadu": "Apples cost 220 ruppes in tamil nadu",
+                "Uttar Pradesh": "Apples cost 90 rupees Uttar Pradesh",
+                "West Bengal": "Apples cost 220 rupees West Bengal"
             },
             "Banana": {
-                "Andhra Pradesh": "143",
-                "Karnataka": "143",
-                "Kerala": "59",
-                "Maharashtra": "Banana data for Maharashtra",
-                "Manipur": "Banana data for Manipur",
-                "Tamil Nadu": "Banana data for Tamil Nadu",
-                "Uttar Pradesh": "Banana data for Uttar Pradesh",
-                "West Bengal": "Banana data for West Bengal"
+                "Andhra Pradesh": "bannana cost 143 rupees",
+                "Karnataka": "bannana cost 143 rupees",
+                "Kerala": "bannana cost 59 rupees",
+                "Manipur": "bannana cost 42.5 rupees",
+                "Tamil Nadu": "bannana cost 50 rupees",
+                "Uttar Pradesh": "bannana cost 15 rupees",
+                "West Bengal": "bannana cost 230 rupees"
             },
             "Orange": {
-                "Andhra Pradesh": "61",
-                "Karnataka": "20.6",
-                "Kerala": "65",
-                "Maharashtra": "Orange data for Maharashtra",
-                "Manipur": "Orange data for Manipur",
-                "Tamil Nadu": "Orange data for Tamil Nadu",
-                "Uttar Pradesh": "Orange data for Uttar Pradesh",
-                "West Bengal": "Orange data for West Bengal"
+                "Andhra Pradesh": "orange cost is 61 rupees",
+                "Karnataka": "orange cost is 20.6 rupees",
+                "Kerala": "orange cost is 65 rupees",
+                "Manipur": "orange cost is 60 rupees",
+                "Tamil Nadu": "orange cost is 112 rupees",
+                "Uttar Pradesh": "orange cost is 45 rupees",
+                "West Bengal": "orange cost is 70 rupees"
             },
             "Grapes": {
-                "Andhra Pradesh": "130",
-                "Karnataka": "90",
-                "Kerala": "90",
-                "Maharashtra": "Grapes data for Maharashtra",
-                "Manipur": "Grapes data for Manipur",
-                "Tamil Nadu": "Grapes data for Tamil Nadu",
-                "Uttar Pradesh": "Grapes data for Uttar Pradesh",
-                "West Bengal": "Grapes data for West Bengal"
+                "Andhra Pradesh": "grape cost is 130 rupees",
+                "Karnataka": "grape cost is 90 rupees",
+                "Kerala": "grape cost is 90 rupees",
+                "Manipur": "grape cost is 80 rupees",
+                "Tamil Nadu": "grape cost is 115 rupees",
+                "Uttar Pradesh": "grape cost is 48.5 rupees",
+                "West Bengal": "grape cost is 80 rupees"
             }
         }
 
@@ -306,7 +302,7 @@ def dad():
 # Dropdowns for selecting commodity and state
     selected_food = st.selectbox("Select Commodity:", ["--Select--", "Apple", "Banana", "Orange", "Grapes"])
     selected_state = st.selectbox("Select State:",
-                                  ["--Select--", "Andhra Pradesh", "Karnataka", "Kerala", "Maharashtra", "Manipur",
+                                  ["--Select--", "Andhra Pradesh", "Karnataka", "Kerala", "Manipur",
                                    "Tamil Nadu", "Uttar Pradesh", "West Bengal"])
 
     if st.button("Fetch Data"):
