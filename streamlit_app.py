@@ -88,7 +88,7 @@ st.markdown("""
                     display: flex;
                     flex: 1 1 0%;
                     flex-direction: column;
-                    gap: 1rem;
+                    gap: 3rem;
                     color: white;
                     }
     """,unsafe_allow_html=True)
