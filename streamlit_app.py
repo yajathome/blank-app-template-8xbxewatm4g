@@ -86,7 +86,7 @@ st.markdown("""
                 .st-emotion-cache-1gwvy71 {
                     padding: 0px 1.5rem 6rem;
                     color: white;
-                }
+                    }
     """,unsafe_allow_html=True)
 def home():
 
