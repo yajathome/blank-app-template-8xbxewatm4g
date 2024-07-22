@@ -65,8 +65,7 @@ st.markdown("""
                 .st-emotion-cache-asc41u {
                     word-break: break-word;
                     text-wrap: pretty;
-                    backdrop-filter: blur(10px);
-                    -webkit-backdrop-filter: blur(10px); /* For Safari */
+                    background-color:wheat;
                     padding: 20px;
                     border-radius: 20px;
                     padding:20px;
