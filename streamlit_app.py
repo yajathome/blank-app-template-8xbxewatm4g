@@ -10,7 +10,7 @@ e = st.sidebar.button('Back to Home Screen')
 st.markdown("""
         <style>
                 .st-emotion-cache-6qob1r {
-                        background-color:#DCE2C8;
+                        background-color:wheat;
                         color:white;
                         }
                  
