@@ -12,6 +12,7 @@ st.markdown("""
                 .st-emotion-cache-6qob1r {
                         background-color:wheat;
                         color:black;
+                        background-filter: blur(10px);
                         }
                  
                 .st-emotion-cache-bm2z3a {
