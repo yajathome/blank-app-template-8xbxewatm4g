@@ -11,7 +11,7 @@ st.markdown("""
         <style>
                 .st-emotion-cache-6qob1r {
                         background-color:wheat;
-                        color:white;
+                        color:black;
                         }
                  
                 .st-emotion-cache-bm2z3a {
