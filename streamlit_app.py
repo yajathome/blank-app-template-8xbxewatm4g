@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 st.sidebar.title("Products")
 st.header("Agri-link Software")
-b = st.sidebar.button("Price Manager")
+b = st.sidebar.button("Price observer")
 c = st.sidebar.button("Farm Manager")
 d = st.sidebar.button("Weather")
 e = st.sidebar.button('Back to Home Screen')
