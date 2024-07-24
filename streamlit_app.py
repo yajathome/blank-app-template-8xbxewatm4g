@@ -61,6 +61,7 @@ st.markdown("""
                     background-color:wheat;
                     padding: 20px;
                     border-radius:20px;
+                    backdrop-filter: blur(10px);
                     
                 }
                 .st-emotion-cache-asc41u {
