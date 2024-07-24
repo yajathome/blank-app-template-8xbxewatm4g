@@ -60,9 +60,11 @@ st.markdown("""
                     background-color:wheat;
                     padding: 20px;
                     border-radius:20px;
-                    
-                    
-                    
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
                 }
                 .st-emotion-cache-asc41u {
                     word-break: break-word;
