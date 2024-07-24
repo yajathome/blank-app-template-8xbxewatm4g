@@ -70,6 +70,8 @@ st.markdown("""
                     padding: 20px;
                     border-radius: 20px;
                     padding:20px;
+                    position:absolute;
+                    margin:auto;
                 {
                 .st-emotion-cache-12fmjuu {
                     position: fixed;
