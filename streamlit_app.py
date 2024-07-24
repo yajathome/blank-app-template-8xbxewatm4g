@@ -60,8 +60,8 @@ st.markdown("""
                     background-color:wheat;
                     padding: 20px;
                     border-radius:20px;
-                    font-size:50px;
-                    font-weight:bold;
+                    
+                    
                     
                 }
                 .st-emotion-cache-asc41u {
