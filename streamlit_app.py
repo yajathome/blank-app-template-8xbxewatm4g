@@ -90,7 +90,7 @@ st.markdown("""
                     }
     """,unsafe_allow_html=True)
 def home():
-        st.title("AgriLinkSoftware")
+        st.write("AgriLinkSoftware")
         
 def ad():
         farm_data = {
