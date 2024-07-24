@@ -70,8 +70,7 @@ st.markdown("""
                     background-color:wheat;
                     padding: 20px;
                     border-radius: 20px;
-                    padding:20px;
-                    position:absolute;
+                    
                     margin:auto;
                     color:white;
                 {
