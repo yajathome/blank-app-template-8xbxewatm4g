@@ -57,12 +57,11 @@ st.markdown("""
                     border-radius: 20px;
                 } 
                 .st-emotion-cache-16w7b7i p {
-                    font-size: 24px; /* Adjust as needed */
-                    padding: 10px; /* Add padding for better visibility */
-                    backdrop-filter: blur(10px); /* Blur the background */
-                    -webkit-backdrop-filter: blur(10px); /* For Safari */
-                    color: black; /* Text color */
-                    text-shadow: 0 0 10px white; /* Shadow to enhance text visibility */
+                    word-break: break-word;
+                    background-color:wheat;
+                    padding: 20px;
+                    border-radius:20px;
+                    backdrop-filter: blur(10px);
                     
                 }
                 .st-emotion-cache-asc41u {
