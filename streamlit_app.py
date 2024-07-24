@@ -20,7 +20,7 @@ st.markdown("""
                     -webkit-box-align: stretch;
                     align-items: center;
                     inset: 0px;
-                    background-image:url("https://th.bing.com/th/id/OIP.G5ubGu5X0X7P0oiAndru9QHaGG?rs=1&pid=ImgDetMain");
+                    background-image:url("https://i.pinimg.com/originals/7c/ee/d1/7ceed19b129d47c7b68d8819d4c80444.jpg");
                     
                     
                     
