@@ -58,7 +58,6 @@ st.markdown("""
                 } 
                 .st-emotion-cache-16w7b7i p {
                     font-size: 24px; /* Adjust as needed */
-                    background: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
                     padding: 10px; /* Add padding for better visibility */
                     backdrop-filter: blur(10px); /* Blur the background */
                     -webkit-backdrop-filter: blur(10px); /* For Safari */
