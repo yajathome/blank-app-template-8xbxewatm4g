@@ -12,7 +12,7 @@ st.markdown("""
                 .st-emotion-cache-6qob1r {
                         background-color:wheat;
                         color:black;
-                        background-filter: blur(10px);
+                        
                         }
                  
                 .st-emotion-cache-bm2z3a {
@@ -58,10 +58,10 @@ st.markdown("""
                 } 
                 .st-emotion-cache-16w7b7i p {
                     word-break: break-word;
-                    background-color:wheat;
+                    background-color:#444CF7;
                     padding: 20px;
                     border-radius:20px;
-                    backdrop-filter: blur(10px);
+                    
                     
                 }
                 .st-emotion-cache-asc41u {
