@@ -131,6 +131,7 @@ def ad():
 
             elif page == 'Crop Management':
                 st.subheader('Crop Management')
+                st.write(" ")
                 st.write('Select a crop to manage:')
 
                 selected_crop = st.selectbox('Select Crop', df['Crop'].unique())
@@ -143,6 +144,7 @@ def ad():
 
             elif page == 'Livestock Tracking':
                 st.subheader('Livestock Tracking')
+                st.write(" ")
                 st.write('Select a livestock to track:')
 
                 selected_livestock = st.selectbox('Select Livestock', df['Livestock'].unique())
@@ -169,6 +171,7 @@ def ad():
 
             elif page == 'Tasks':
                 st.subheader('Task Management')
+                st.write(" ")
                 st.write('Manage your farm tasks here.')
 
                 task = st.text_area('Enter a new task')
