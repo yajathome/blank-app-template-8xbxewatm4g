@@ -26,7 +26,7 @@ st.markdown("""
                     -webkit-box-align: stretch;
                     align-items: center;
                     inset: 0px;
-                    background-image:url("https://th.bing.com/th/id/OIP.Xtc8MHo4Q2dikeV_bU6G9wHaE7?w=249&h=180&c=7&r=0&o=5&dpr=1.8&pid=1.7");
+                    background-image:url("https://static.vecteezy.com/system/resources/previews/011/189/962/original/abstract-wall-decor-design-with-hand-drawn-leaf-pattern-aesthetic-background-free-vector.jpg");
                     #
                     
                     
