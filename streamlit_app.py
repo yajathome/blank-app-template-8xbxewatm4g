@@ -117,7 +117,7 @@ def ad():
 
         def main():
             st.title('Farm Management App')
-
+            st.write(" ")
     # Sidebar with options
             st.sidebar.title('Menu')
             page = st.sidebar.radio('Select a page', ['Home', 'Crop Management', 'Livestock Tracking', 'Tasks'])
@@ -126,6 +126,7 @@ def ad():
 
             if page == 'Home':
                 st.subheader('Farm Overview')
+                st.write(" ")
                 st.write(df)  # Display farm data
 
             elif page == 'Crop Management':
