@@ -14,6 +14,7 @@ st.markdown("""
                     font-size: 14px;
                     BACKGROUND-COLOR: WHEAT;
                     border-radius: 10px
+                    }
                 .st-emotion-cache-6qob1r {
                         background-color:wheat;
                         color:black;
