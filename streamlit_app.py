@@ -88,9 +88,10 @@ st.markdown("""
                     padding: 0px 1.5rem 6rem;
                     
                     }
+        </style>
     """,unsafe_allow_html=True)
 def home():
-        st.write("Agri-link Software")
+        st.html("<h1> Agri-Link Software</h1>")
 def ad():
         farm_data = {
             'Farm Name': ['Farm A', 'Farm B', 'Farm C'],
