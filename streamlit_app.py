@@ -231,7 +231,7 @@ def da():
 
     def main():
         st.title("Crop Recommendation Based on Weather and Terrain")
-    
+        st.write(" ")
         st.write("Enter the details below to get crop recommendations based on the weather and terrain conditions.")
 
         state = st.selectbox("Select your state:", ["Andhra Pradesh", "Tamil Nadu", "Kerala", "Karnataka"])
@@ -299,7 +299,7 @@ def dad():
 
 # Streamlit UI
     st.title("Data Fetcher")
-
+    st.write(" ")
 # Dropdowns for selecting commodity and state
     selected_food = st.selectbox("Select Commodity:", ["--Select--", "Apple", "Banana", "Orange", "Grapes"])
     selected_state = st.selectbox("Select State:",
