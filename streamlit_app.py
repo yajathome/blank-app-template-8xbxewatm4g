@@ -91,7 +91,7 @@ st.markdown("""
         </style>
     """,unsafe_allow_html=True)
 def home():
-        st.html("<h1 style='font-size:50px;background-color:wheat;padding:20px;border-radius:20px;text-align: center;  margin: auto;width: 60%;'> Agri-Link Software</h1>")
+        st.html("<h1 style='font-size:50px;background-color:wheat;padding:20px;border-radius:20px;text-align: center;  margin: auto;width: 60%;MARGIN-TOP: 100PX;'> Agri-Link Software</h1>")
 def ad():
         farm_data = {
             'Farm Name': ['Farm A', 'Farm B', 'Farm C'],
