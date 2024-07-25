@@ -8,6 +8,12 @@ d = st.sidebar.button("Weather forecaster")
 e = st.sidebar.button('Back to Home Screen')
 st.markdown("""
         <style>
+                .st-emotion-cache-hzaobi p {
+                    word-break: break-word;
+                    margin-bottom: 0px;
+                    font-size: 14px;
+                    BACKGROUND-COLOR: WHEAT;
+                    border-radius: 10px
                 .st-emotion-cache-6qob1r {
                         background-color:wheat;
                         color:black;
