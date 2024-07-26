@@ -75,7 +75,7 @@ st.markdown("""
                     
                     margin:auto;
                     color:white;
-                {
+                    }
                 .st-emotion-cache-12fmjuu {
                     position: fixed;
                     top: 0px;
