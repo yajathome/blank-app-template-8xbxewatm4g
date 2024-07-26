@@ -27,7 +27,7 @@ st.markdown("""
                     -webkit-box-align: stretch;
                     align-items: center;
                     inset: 0px;
-                    background-image:url("");
+                    background-image:url("https://static.vecteezy.com/system/resources/previews/006/873/805/original/abstract-tropical-leaves-aesthetics-background-minimalist-free-vector.jpg");
                     #
                     
                     
