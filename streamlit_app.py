@@ -28,7 +28,7 @@ st.markdown("""
                     align-items: center;
                     inset: 0px;
                     background-image: url(https://static.vecteezy.com/system/resources/previews/011/189/962/original/abstract-wall-decor-design-with-hand-drawn-leaf-pattern-aesthetic-background-free-vector.jpg);
-                    color:black;
+                    
                     }
                 .st-emotion-cache-14vq8o {
                     width: 243px;
@@ -99,6 +99,16 @@ st.markdown("""
                     cursor: col-resize;
                     z-index: 999995;
                     backdrop-filter: blur(5px);
+                element.style {
+                    font-size: 50px;
+                    background-color: wheat;
+                    padding: 20px;
+                    border-radius: 20px;
+                    text-align: center;
+                    margin: auto;
+                    width: 60%;
+                    MARGIN-TOP: 100PX;
+                    color: black;
         </style>
     """,unsafe_allow_html=True)
 def home():
