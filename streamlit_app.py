@@ -111,6 +111,13 @@ st.markdown("""
                     MARGIN-TOP: 100PX;
                     color: black;
                     }
+                    
+
+                .st-emotion-cache-1gwvy71 h1 {
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    color: white;
+                    }        
         </style>
     """,unsafe_allow_html=True)
 def home():
