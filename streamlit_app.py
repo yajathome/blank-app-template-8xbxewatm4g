@@ -95,6 +95,13 @@ st.markdown("""
                     padding: 0px 1.5rem 6rem;
                     
                     }
+                .st-emotion-cache-1h0phbw {
+                    position: absolute;
+                    width: 8px;
+                    height: 100%;
+                    cursor: col-resize;
+                    z-index: 999995;
+                    backdrop-filter: blur(5px);
         </style>
     """,unsafe_allow_html=True)
 def home():
