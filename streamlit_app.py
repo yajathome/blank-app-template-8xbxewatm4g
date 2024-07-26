@@ -14,12 +14,13 @@ st.markdown("""
                     font-size: 14px;
                     BACKGROUND-COLOR: WHEAT;
                     border-radius: 10px
+                    background-image:url("https://static.vecteezy.com/system/resources/previews/000/300/889/original/abstract-seamless-pattern-with-leaves-vector-background-for-various-surface.jpg");
                     }
                 .st-emotion-cache-6qob1r {
-<<<<<<< HEAD
+
                     #backdrop-filter: blur(10px);
                     color:black;
-                    background-image:url("https://static.vecteezy.com/system/resources/previews/000/300/889/original/abstract-seamless-pattern-with-leaves-vector-background-for-various-surface.jpg");
+                    background-image:url("https://static.vecteezy.com/system/resources/previews/011/189/962/original/abstract-wall-decor-design-with-hand-drawn-leaf-pattern-aesthetic-background-free-vector.jpg");
                     background-size:cover;
                     }
                 .st-emotion-cache-1h0phbw {
