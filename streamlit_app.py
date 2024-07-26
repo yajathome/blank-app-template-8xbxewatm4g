@@ -306,4 +306,4 @@ elif st.session_state.page == 'price':
     dad()
 if e:
         st.session_state.page = 'home'
-        st.experimental_rerun()
+        st.rerun()
