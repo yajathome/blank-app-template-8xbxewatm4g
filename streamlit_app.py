@@ -109,6 +109,7 @@ st.markdown("""
                     width: 60%;
                     MARGIN-TOP: 100PX;
                     color: black;
+                    }
         </style>
     """,unsafe_allow_html=True)
 def home():
