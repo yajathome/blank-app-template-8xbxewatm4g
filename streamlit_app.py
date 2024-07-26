@@ -112,7 +112,7 @@ st.markdown("""
                     border-radius: 20px;
                     text-align: center;
                     margin: auto;
-                    width: 60%;
+                    width: 80%;
                     MARGIN-TOP: 100PX;
                     color: black;
                     }
