@@ -99,6 +99,7 @@ st.markdown("""
                     cursor: col-resize;
                     z-index: 999995;
                     backdrop-filter: blur(5px);
+                    }
                 element.style {
                     font-size: 50px;
                     background-color: wheat;
