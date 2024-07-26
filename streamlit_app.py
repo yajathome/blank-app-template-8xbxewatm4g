@@ -16,10 +16,26 @@ st.markdown("""
                     border-radius: 10px
                     }
                 .st-emotion-cache-6qob1r {
+<<<<<<< HEAD
+                    #backdrop-filter: blur(10px);
+                    color:black;
+                    background-image:url("https://static.vecteezy.com/system/resources/previews/000/300/889/original/abstract-seamless-pattern-with-leaves-vector-background-for-various-surface.jpg");
+                    background-size:cover;
+                    }
+                .st-emotion-cache-1h0phbw {
+                    position: absolute;
+                    width: 8px;
+                    height: 100%;
+                    cursor: col-resize;
+                    z-index: 999995;
+                    BACKDROP-FILTER: BLUR(5PX);
+                    X}
+=======
                         background-color:wheat;
                         color:black;
                         
                         }
+>>>>>>> 3c15271c60a64d1b5f2ef98b83d74c51c0dda0a3
                  
                 .st-emotion-cache-bm2z3a {
                     -webkit-box-pack: start;
@@ -27,7 +43,11 @@ st.markdown("""
                     align-items: center;
                     inset: 0px;
                     background-image:url("https://static.vecteezy.com/system/resources/previews/011/189/962/original/abstract-wall-decor-design-with-hand-drawn-leaf-pattern-aesthetic-background-free-vector.jpg");
+<<<<<<< HEAD
+                    background-size: cover;
+=======
                     #
+>>>>>>> 3c15271c60a64d1b5f2ef98b83d74c51c0dda0a3
                     
                     
                     
@@ -72,7 +92,11 @@ st.markdown("""
                 .st-emotion-cache-asc41u {
                     word-break: break-word;
                     text-wrap: pretty;
+<<<<<<< HEAD
+                    
+=======
                     background-color:wheat;
+>>>>>>> 3c15271c60a64d1b5f2ef98b83d74c51c0dda0a3
                     padding: 20px;
                     border-radius: 20px;
                     
@@ -95,6 +119,16 @@ st.markdown("""
                     padding: 0px 1.5rem 6rem;
                     
                     }
+                element.style {
+                    font-size: 50px;
+                    padding: 20px;
+                    border-radius: 20px;
+                    text-align: center;
+                    margin: auto;
+                    width: 60%;
+                    MARGIN-TOP: 100PX;
+                    background-color: wheat;
+                    color: black
         </style>
     """,unsafe_allow_html=True)
 def home():
@@ -147,27 +181,27 @@ def ad():
                 st.write(" ")
                 st.write('Select a livestock to track:')
 
-                selected_livestock = st.selectbox('Select Livestock', df['Livestock'].unique())
-                livestock_info = df[df['Livestock'] == selected_livestock].iloc[0]
+            selected_livestock = st.selectbox('Select Livestock', df['Livestock'].unique())
+            livestock_info = df[df['Livestock'] == selected_livestock].iloc[0]
 
-                st.write(f"*Livestock Type:* {livestock_info['Livestock']}")
-                st.write(f"*Farm Name:* {livestock_info['Farm Name']}")
-                st.write(f"*Location:* {livestock_info['Location']}")
-                st.write(f"*Area (acres):* {livestock_info['Area (acres)']}")
-                st.write(f"*Livestock Count:* {livestock_info['Livestock Count']}")
-                st.write(f"*Feeding Schedule:* {livestock_info['Feeding Schedule']}")
-                st.write(f"*Health Status:* {livestock_info['Health Status']}")
+            st.write(f"*Livestock Type:* {livestock_info['Livestock']}")
+            st.write(f"*Farm Name:* {livestock_info['Farm Name']}")
+            st.write(f"*Location:* {livestock_info['Location']}")
+            st.write(f"*Area (acres):* {livestock_info['Area (acres)']}")
+            st.write(f"*Livestock Count:* {livestock_info['Livestock Count']}")
+            st.write(f"*Feeding Schedule:* {livestock_info['Feeding Schedule']}")
+            st.write(f"*Health Status:* {livestock_info['Health Status']}")
 
-                new_health_status = st.selectbox('Change Health Status', ['Good', 'Fair', 'Poor', 'Excellent'], 
+            new_health_status = st.selectbox('Change Health Status', ['Good', 'Fair', 'Poor', 'Excellent'], 
                                                  index=['Good', 'Fair', 'Poor', 'Excellent'].index(livestock_info['Health Status']))
-                if st.button('Update Health Status'):
-                    df.loc[df['Livestock'] == selected_livestock, 'Health Status'] = new_health_status
-                    st.session_state.df = df  # Update session state
+            if st.button('Update Health Status'):
+                df.loc[df['Livestock'] == selected_livestock, 'Health Status'] = new_health_status
+                st.session_state.df = df  # Update session state
 
-                    st.write(f"Health status of {selected_livestock} updated to {new_health_status}")
+                st.write(f"Health status of {selected_livestock} updated to {new_health_status}")
 
-                    livestock_info = df[df['Livestock'] == selected_livestock].iloc[0]
-                    st.write(f"*Health Status:* {livestock_info['Health Status']}")
+                livestock_info = df[df['Livestock'] == selected_livestock].iloc[0]
+                st.write(f"*Health Status:* {livestock_info['Health Status']}")
 
             elif page == 'Tasks':
                 st.subheader('Task Management')
@@ -332,6 +366,6 @@ elif st.session_state.page == 'weather':
 elif st.session_state.page == 'price':
     dad()
 if e:
-        st.session_state.page = 'home'
-        st.experimental_rerun()
+    st.session_state.page = 'home'
+    st.rerun()
 
