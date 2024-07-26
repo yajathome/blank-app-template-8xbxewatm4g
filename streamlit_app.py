@@ -19,6 +19,7 @@ st.markdown("""
                         background-color:wheat;
                         color:black;
                         background-image:url("https://static.vecteezy.com/system/resources/previews/000/300/889/original/abstract-seamless-pattern-with-leaves-vector-background-for-various-surface.jpg");
+                        background-size:cover;
                         }
                  
                 .st-emotion-cache-bm2z3a {
