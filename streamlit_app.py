@@ -130,7 +130,14 @@ st.markdown("""
                     font-size: 1.5rem;
                     font-weight: 600;
                     color: white;
-                    }        
+                    }
+                .st-bw {
+                    line-height: 1.6;
+                    background-color: wheat;
+                    padding: 10px;
+                    border-radius: 20px;
+                    gap: 1rem;
+
         </style>
     """,unsafe_allow_html=True)
 def home():
