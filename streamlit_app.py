@@ -36,9 +36,6 @@ st.markdown("""
                         }
                  
                 .st-emotion-cache-bm2z3a {
-                    -webkit-box-pack: start;
-                    -webkit-box-align: stretch;
-                    align-items: center;
                     
                     background-image:url("https://static.vecteezy.com/system/resources/previews/011/189/962/original/abstract-wall-decor-design-with-hand-drawn-leaf-pattern-aesthetic-background-free-vector.jpg");
                     
