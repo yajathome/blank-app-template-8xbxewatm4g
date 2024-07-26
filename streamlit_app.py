@@ -14,29 +14,12 @@ st.markdown("""
                     font-size: 14px;
                     BACKGROUND-COLOR: WHEAT;
                     border-radius: 10px
-                    background-image:url("https://static.vecteezy.com/system/resources/previews/000/300/889/original/abstract-seamless-pattern-with-leaves-vector-background-for-various-surface.jpg");
                     }
                 .st-emotion-cache-6qob1r {
-
-                    #backdrop-filter: blur(10px);
-                    color:black;
-                    background-image:url("https://static.vecteezy.com/system/resources/previews/011/189/962/original/abstract-wall-decor-design-with-hand-drawn-leaf-pattern-aesthetic-background-free-vector.jpg");
-                    background-size:cover;
-                    }
-                .st-emotion-cache-1h0phbw {
-                    position: absolute;
-                    width: 8px;
-                    height: 100%;
-                    cursor: col-resize;
-                    z-index: 999995;
-                    BACKDROP-FILTER: BLUR(5PX);
-                    X}
-=======
                         background-color:wheat;
                         color:black;
                         
                         }
->>>>>>> 3c15271c60a64d1b5f2ef98b83d74c51c0dda0a3
                  
                 .st-emotion-cache-bm2z3a {
                     -webkit-box-pack: start;
@@ -44,11 +27,7 @@ st.markdown("""
                     align-items: center;
                     inset: 0px;
                     background-image:url("https://static.vecteezy.com/system/resources/previews/011/189/962/original/abstract-wall-decor-design-with-hand-drawn-leaf-pattern-aesthetic-background-free-vector.jpg");
-<<<<<<< HEAD
-                    background-size: cover;
-=======
                     #
->>>>>>> 3c15271c60a64d1b5f2ef98b83d74c51c0dda0a3
                     
                     
                     
@@ -63,7 +42,6 @@ st.markdown("""
                     color:white;
                     }
                 
-
                 .st-emotion-cache-1n4a2v9 {
                     position: fixed;
                     top: 0px;
@@ -93,11 +71,7 @@ st.markdown("""
                 .st-emotion-cache-asc41u {
                     word-break: break-word;
                     text-wrap: pretty;
-<<<<<<< HEAD
-                    
-=======
                     background-color:wheat;
->>>>>>> 3c15271c60a64d1b5f2ef98b83d74c51c0dda0a3
                     padding: 20px;
                     border-radius: 20px;
                     
@@ -120,16 +94,6 @@ st.markdown("""
                     padding: 0px 1.5rem 6rem;
                     
                     }
-                element.style {
-                    font-size: 50px;
-                    padding: 20px;
-                    border-radius: 20px;
-                    text-align: center;
-                    margin: auto;
-                    width: 60%;
-                    MARGIN-TOP: 100PX;
-                    background-color: wheat;
-                    color: black
         </style>
     """,unsafe_allow_html=True)
 def home():
@@ -145,74 +109,58 @@ def ad():
             'Feeding Schedule': ['Twice a day', 'Three times a day', 'Once a day'],
             'Health Status': ['Good', 'Excellent', 'Fair']
         }
-
 # Initialize the session state if it doesn't already exist
         if 'df' not in st.session_state:
             st.session_state.df = pd.DataFrame(farm_data)
-
         def main():
             st.title('Farm Management App')
             st.write(" ")
     # Sidebar with options
             st.sidebar.title('Menu')
             page = st.sidebar.radio('Select a page', ['Home', 'Crop Management', 'Livestock Tracking', 'Tasks'])
-
             df = st.session_state.df
-
             if page == 'Home':
                 st.subheader('Farm Overview')
                 st.write(" ")
                 st.write(df)  # Display farm data
-
             elif page == 'Crop Management':
                 st.subheader('Crop Management')
                 st.write(" ")
                 st.write('Select a crop to manage:')
-
                 selected_crop = st.selectbox('Select Crop', df['Crop'].unique())
                 crop_info = df[df['Crop'] == selected_crop].iloc[0]
-
                 st.write(f"*Crop Name:* {crop_info['Crop']}")
                 st.write(f"*Farm Name:* {crop_info['Farm Name']}")
                 st.write(f"*Location:* {crop_info['Location']}")
                 st.write(f"*Area (acres):* {crop_info['Area (acres)']}")
-
             elif page == 'Livestock Tracking':
                 st.subheader('Livestock Tracking')
                 st.write(" ")
                 st.write('Select a livestock to track:')
-
-            selected_livestock = st.selectbox('Select Livestock', df['Livestock'].unique())
-            livestock_info = df[df['Livestock'] == selected_livestock].iloc[0]
-
-            st.write(f"*Livestock Type:* {livestock_info['Livestock']}")
-            st.write(f"*Farm Name:* {livestock_info['Farm Name']}")
-            st.write(f"*Location:* {livestock_info['Location']}")
-            st.write(f"*Area (acres):* {livestock_info['Area (acres)']}")
-            st.write(f"*Livestock Count:* {livestock_info['Livestock Count']}")
-            st.write(f"*Feeding Schedule:* {livestock_info['Feeding Schedule']}")
-            st.write(f"*Health Status:* {livestock_info['Health Status']}")
-
-            new_health_status = st.selectbox('Change Health Status', ['Good', 'Fair', 'Poor', 'Excellent'], 
-                                                 index=['Good', 'Fair', 'Poor', 'Excellent'].index(livestock_info['Health Status']))
-            if st.button('Update Health Status'):
-                df.loc[df['Livestock'] == selected_livestock, 'Health Status'] = new_health_status
-                st.session_state.df = df  # Update session state
-
-                st.write(f"Health status of {selected_livestock} updated to {new_health_status}")
-
+                selected_livestock = st.selectbox('Select Livestock', df['Livestock'].unique())
                 livestock_info = df[df['Livestock'] == selected_livestock].iloc[0]
+                st.write(f"*Livestock Type:* {livestock_info['Livestock']}")
+                st.write(f"*Farm Name:* {livestock_info['Farm Name']}")
+                st.write(f"*Location:* {livestock_info['Location']}")
+                st.write(f"*Area (acres):* {livestock_info['Area (acres)']}")
+                st.write(f"*Livestock Count:* {livestock_info['Livestock Count']}")
+                st.write(f"*Feeding Schedule:* {livestock_info['Feeding Schedule']}")
                 st.write(f"*Health Status:* {livestock_info['Health Status']}")
-
+                new_health_status = st.selectbox('Change Health Status', ['Good', 'Fair', 'Poor', 'Excellent'], 
+                                                 index=['Good', 'Fair', 'Poor', 'Excellent'].index(livestock_info['Health Status']))
+                if st.button('Update Health Status'):
+                    df.loc[df['Livestock'] == selected_livestock, 'Health Status'] = new_health_status
+                    st.session_state.df = df  # Update session state
+                    st.write(f"Health status of {selected_livestock} updated to {new_health_status}")
+                    livestock_info = df[df['Livestock'] == selected_livestock].iloc[0]
+                    st.write(f"*Health Status:* {livestock_info['Health Status']}")
             elif page == 'Tasks':
                 st.subheader('Task Management')
                 st.write(" ")
                 st.write('Manage your farm tasks here.')
-
                 task = st.text_area('Enter a new task')
                 if st.button('Add Task'):
                     st.write(f'New task added: {task}')
-
         if __name__ == '__main__':
             main()
 def da():
@@ -227,7 +175,6 @@ def da():
     def get_weather(city, api_key):
         url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=imperial"
         response = requests.get(url)
-
         if response.status_code == 200:
             data = response.json()
             weather_description = data['weather'][0]['description']
@@ -237,7 +184,6 @@ def da():
             return weather_info, temperature_celsius
         else:
             return "Sorry, I couldn't get the weather information. Please try again later.", None
-
     def get_crop_recommendation(month, terrain, temperature_celsius):
         month = month.lower()
         terrain = terrain.lower()
@@ -263,12 +209,10 @@ def da():
                 return "The conditions are not suitable for planting kharif crops."
         else:
             return "The current month is not suitable for planting either rabi or kharif crops based on the given conditions."
-
     def main():
         st.title("Crop Recommendation Based on Weather and Terrain")
         st.write(" ")
         st.write("Enter the details below to get crop recommendations based on the weather and terrain conditions.")
-
         state = st.selectbox("Select your state:", ["Andhra Pradesh", "Tamil Nadu", "Kerala", "Karnataka"])
         terrain = st.selectbox("Select your terrain:", ["Plain", "Plateau", "Mountain"])
         month = st.selectbox("Select the month:", ["March", "April", "September", "October", "November", "December"])
@@ -277,7 +221,6 @@ def da():
             api_key = "5cfb38f8a25bdae00a1f5984e6644063"
             city = get_city(state)
             weather_info, temperature_celsius = get_weather(city, api_key)
-
             if temperature_celsius is not None:
                 crop_info = get_crop_recommendation(month, terrain, temperature_celsius)
                 st.success(f"Weather Info: {weather_info}")
@@ -327,11 +270,8 @@ def dad():
                 "West Bengal": "grape cost is 80 rupees"
             }
         }
-
     # Get the specific data based on selected commodity and state
         return data.get(selected_food, {}).get(selected_state, "No data available for the selected combination.")
-
-
 # Streamlit UI
     st.title("Data Fetcher")
     st.write(" ")
@@ -340,7 +280,6 @@ def dad():
     selected_state = st.selectbox("Select State:",
                                   ["--Select--", "Andhra Pradesh", "Karnataka", "Kerala", "Manipur",
                                    "Tamil Nadu", "Uttar Pradesh", "West Bengal"])
-
     if st.button("Fetch Data"):
         if selected_food == "--Select--" or selected_state == "--Select--":
             st.error("Please select both commodity and state.")
@@ -357,7 +296,6 @@ if d:
     st.session_state.page = 'weather'
 if b:
     st.session_state.page = 'price'
-
 if st.session_state.page == 'home':
     home()
 elif st.session_state.page == 'farm':
@@ -367,6 +305,5 @@ elif st.session_state.page == 'weather':
 elif st.session_state.page == 'price':
     dad()
 if e:
-    st.session_state.page = 'home'
-    st.rerun()
-
+        st.session_state.page = 'home'
+        st.experimental_rerun()
