@@ -134,7 +134,7 @@ st.markdown("""
                     padding: 10px;
                     border-radius: 20px;
                     gap: 1rem;
-
+                }
         </style>
     """,unsafe_allow_html=True)
 def home():
