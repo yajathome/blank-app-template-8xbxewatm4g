@@ -16,20 +16,18 @@ st.markdown("""
                     border-radius: 10px
                     }
                 .st-emotion-cache-6qob1r {
-                        #backdrop-filter: blur(10px);
+                        background-color:wheat;
                         color:black;
-                        background-image:url("https://images.pexels.com/photos/993018/pexels-photo-993018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
-                        background-size:cover;
+                        
                         }
-            
                  
                 .st-emotion-cache-bm2z3a {
                     -webkit-box-pack: start;
                     -webkit-box-align: stretch;
                     align-items: center;
                     inset: 0px;
-                    background-image:url("https://images.pexels.com/photos/2603217/pexels-photo-2603217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
-                    background-size: cover;
+                    background-image:url("https://static.vecteezy.com/system/resources/previews/011/189/962/original/abstract-wall-decor-design-with-hand-drawn-leaf-pattern-aesthetic-background-free-vector.jpg");
+                    #
                     
                     
                     
@@ -66,7 +64,7 @@ st.markdown("""
                 } 
                 .st-emotion-cache-16w7b7i p {
                     word-break: break-word;
-                    backdrop-filter: blur(10px);
+                    background-color:wheat;
                     padding: 20px;
                     border-radius:20px;
                    
@@ -74,7 +72,7 @@ st.markdown("""
                 .st-emotion-cache-asc41u {
                     word-break: break-word;
                     text-wrap: pretty;
-                    backdrop-filter: blur(10px);
+                    background-color:wheat;
                     padding: 20px;
                     border-radius: 20px;
                     
@@ -100,7 +98,7 @@ st.markdown("""
         </style>
     """,unsafe_allow_html=True)
 def home():
-        st.html("<h1 style='font-size:50px;backdrop-filter: blur(10px);padding:20px;border-radius:20px;text-align: center;  margin: auto;width: 60%;MARGIN-TOP: 100PX;'> Agri-Link Software</h1>")
+        st.html("<h1 style='font-size:50px;background-color:wheat;padding:20px;border-radius:20px;text-align: center;  margin: auto;width: 60%;MARGIN-TOP: 100PX;'> Agri-Link Software</h1>")
 def ad():
         farm_data = {
             'Farm Name': ['Farm A', 'Farm B', 'Farm C'],
@@ -334,6 +332,6 @@ elif st.session_state.page == 'weather':
 elif st.session_state.page == 'price':
     dad()
 if e:
-    st.session_state.page = 'home'
-    st.experimental_rerun()
+        st.session_state.page = 'home'
+        st.experimental_rerun()
 
