@@ -17,7 +17,7 @@ st.markdown("""
                     backdrop-filter:blur(5px);
                 }
                 element.style {
-                    background-color: wheat;
+                    backdrop-filter:blur(10px);
                     border-radius: 20px;
                     padding: 20px;
                 }
@@ -25,11 +25,11 @@ st.markdown("""
                     word-break: break-word;
                     margin-bottom: 0px;
                     font-size: 14px;
-                    BACKGROUND-COLOR: WHEAT;
+                    backdrop-filter:blur(10px);
                     border-radius: 10px
                     }
                 .st-emotion-cache-6qob1r {
-                        background-color:wheat;
+                        backdrop-filter:blur(10px);
                         color:black;
                         background-image:url("https://static.vecteezy.com/system/resources/previews/000/300/889/original/abstract-seamless-pattern-with-leaves-vector-background-for-various-surface.jpg");
                         background-size:cover;
@@ -71,7 +71,7 @@ st.markdown("""
                 } 
                 .st-emotion-cache-16w7b7i p {
                     word-break: break-word;
-                    background-color:wheat;
+                    backdrop-filter:blur(10px);
                     padding: 20px;
                     border-radius:20px;
                    
@@ -112,7 +112,7 @@ st.markdown("""
                     }
                 element.style {
                     font-size: 50px;
-                    background-color: wheat;
+                    backdrop-filter:blur(10px);
                     padding: 20px;
                     border-radius: 20px;
                     text-align: center;
@@ -130,7 +130,7 @@ st.markdown("""
                     }
                 .st-bw {
                     line-height: 1.6;
-                    background-color: wheat;
+                    backdrop-filter:blur(10px);
                     padding: 10px;
                     border-radius: 20px;
                     gap: 1rem;
