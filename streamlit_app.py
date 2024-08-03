@@ -79,7 +79,7 @@ st.markdown("""
                 .st-emotion-cache-asc41u {
                     word-break: break-word;
                     text-wrap: pretty;
-                    background-color:wheat;
+                    backdrop-filter:blur(10px);
                     padding: 20px;
                     border-radius: 20px;
                     
