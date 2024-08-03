@@ -37,7 +37,7 @@ st.markdown("""
                  
                 .st-emotion-cache-bm2z3a {
                     
-                    background-image:url("https://static.vecteezy.com/system/resources/previews/011/189/962/original/abstract-wall-decor-design-with-hand-drawn-leaf-pattern-aesthetic-background-free-vector.jpg");
+                    background-image:url("https://static.vecteezy.com/system/resources/previews/001/228/271/non_2x/abstract-line-leaves-print-seamless-pattern-vector.jpg");
                     
                     }
                 .st-emotion-cache-14vq8o {
