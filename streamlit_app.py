@@ -8,6 +8,17 @@ d = st.sidebar.button("Weather forecaster")
 e = st.sidebar.button('Back to Home Screen')
 st.markdown("""
         <style>
+                @keyframes incr {
+                    from {
+                        transform: scale(1);
+                    }
+                     to {
+                        transform: scale(2);
+                    }
+                }
+                button.st-emotion-cache-1s0tdct.ef3psqc13:hover {
+                    animation-name: incr;
+                }
                 .st-emotion-cache-10vh4h9 {
                     position: absolute;
                     width: 8px;
