@@ -13,7 +13,7 @@ st.markdown("""
                         transform: scale(1);
                     }
                      to {
-                        transform: scale(2);
+                        transform: scale(1.2);
                     }
                 }
                 button.st-emotion-cache-1s0tdct.ef3psqc13:hover {
