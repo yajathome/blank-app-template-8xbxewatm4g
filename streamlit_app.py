@@ -19,7 +19,7 @@ st.markdown("""
                 button.st-emotion-cache-1s0tdct.ef3psqc13:hover {
                     animation-name: incr;
                     animation-duration: 2s;
-                    animation-fill-mode:forward;
+                    animation-fill-mode: forward;
                 }
                 .st-emotion-cache-10vh4h9 {
                     position: absolute;
