@@ -18,7 +18,7 @@ st.markdown("""
                 }
                 button.st-emotion-cache-1s0tdct.ef3psqc13:hover {
                     animation-name: incr;
-                    animation-duration: 2s;
+                    animation-duration: 0.5s;
                     animation-fill-mode: forwards;
                 }
                 .st-emotion-cache-10vh4h9 {
