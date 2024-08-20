@@ -44,13 +44,13 @@ st.markdown("""
                 .st-emotion-cache-6qob1r {
                         backdrop-filter:blur(10px);
                         color:black;
-                        background-image:url("https://static.vecteezy.com/system/resources/previews/000/300/889/original/abstract-seamless-pattern-with-leaves-vector-background-for-various-surface.jpg");
+                        background-image:url("https://urbanarts.vteximg.com.br/arquivos/ids/9497907-1000-1000/123890_Ampliada.jpg?v=637626758725530000");
                         background-size:cover;
                         }
                  
                 .st-emotion-cache-bm2z3a {
                     
-                    background-image:url("https://images.vexels.com/media/users/3/100830/preview2/b51f0ed844d36c8b7264df6668091222-abstract-green-leaves-vector-illustration.jpg");
+                    background-image:url("https://i.pinimg.com/originals/f4/80/76/f48076876a6b61d7ccab13ae9b0113a6.jpg");
                     
                     }
                 .st-emotion-cache-14vq8o {
