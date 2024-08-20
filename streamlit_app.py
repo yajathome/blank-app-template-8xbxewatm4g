@@ -44,7 +44,7 @@ st.markdown("""
                 .st-emotion-cache-6qob1r {
                         backdrop-filter:blur(10px);
                         color:black;
-                        background-image:url("https://th.bing.com/th/id/OIP.aRfYve4cwF9Xq2dQ59zLxQHaHa?w=164&h=180&c=7&r=0&o=5&dpr=1.8&pid=1.7");
+                        background-image:url("https://img.freepik.com/premium-photo/close-up-colorful-abstract-background-with-wavy-shapes-generative-ai_791316-67096.jpg?w=1060");
                         background-size:cover;
                         }
                  
