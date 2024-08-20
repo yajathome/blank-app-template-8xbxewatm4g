@@ -50,7 +50,7 @@ st.markdown("""
                  
                 .st-emotion-cache-bm2z3a {
                     
-                    background-image:url("https://img.freepik.com/free-vector/abstract-hand-drawn-tropical-background_23-2148191357.jpg?t=st=1724152544~exp=1724156144~hmac=e226da5c9ea491dfedd4b24bde67381ded9e845c6ffd50453e1e02ac5d685fed&w=1060);
+                    background-image:url("https://www.freepik.com/free-vector/abstract-hand-drawn-tropical-background_4686583.htm");
                     
                     }
                 .st-emotion-cache-14vq8o {
