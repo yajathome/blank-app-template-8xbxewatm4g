@@ -45,7 +45,7 @@ st.markdown("""
                         backdrop-filter:blur(10px);
                         color:black;
                         background-image:url("https://i.pinimg.com/originals/2c/9d/74/2c9d7475f5125d638a999397ce1415e7.jpg");
-                        background-size:cover;
+                        background-size:fill;
                         }
                  
                 .st-emotion-cache-bm2z3a {
