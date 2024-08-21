@@ -44,7 +44,7 @@ st.markdown("""
                 .st-emotion-cache-6qob1r {
                         backdrop-filter:blur(10px);
                         color:black;
-                        #background-image:url("https://i.pinimg.com/originals/2c/9d/74/2c9d7475f5125d638a999397ce1415e7.jpg");
+                        background-image:url("https://i.pinimg.com/originals/e8/90/ae/e890ae643fe34a343093cefca4db2349.jpg");
                         background-size:fit;
                         background-color:#eeffdd;
                         }
