@@ -148,6 +148,11 @@ st.markdown("""
                     border-radius: 20px;
                     gap: 1rem;
                 }
+                .st-emotion-cache-1lpghe1 p:hover {
+                    animation-name: incr;
+                    animation-duration: 0.5s;
+                    animation-fill-mode: forwards;
+                }
         </style>
     """,unsafe_allow_html=True)
 def home():
