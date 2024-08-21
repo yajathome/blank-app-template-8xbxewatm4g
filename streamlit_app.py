@@ -16,6 +16,14 @@ st.markdown("""
                         transform: scale(1.1);
                     }
                 }
+                st-emotion-cache-1gwvy71 h1 {
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    color: black;
+                    backdrop-filter: blur(10px);
+                    border-radius: 20px;
+                    margin: auto;
+                }
                 button.st-emotion-cache-1s0tdct.ef3psqc13:hover {
                     animation-name: incr;
                     animation-duration: 0.5s;
