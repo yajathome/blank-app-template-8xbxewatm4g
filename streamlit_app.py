@@ -44,8 +44,7 @@ st.markdown("""
                 .st-emotion-cache-6qob1r {
                         backdrop-filter:blur(10px);
                         color:black;
-                        background: rgb(99,161,84);
-                        background: linear-gradient(90deg, rgba(99,161,84,1) 0%, rgba(238,255,221,1) 100%);
+                        background-image:url("https://i.pinimg.com/originals/2c/9d/74/2c9d7475f5125d638a999397ce1415e7.jpg");
                         background-size:cover;
                         }
                  
