@@ -46,7 +46,7 @@ st.markdown("""
                         color:black;
                         background-image:url("https://i.pinimg.com/originals/e8/90/ae/e890ae643fe34a343093cefca4db2349.jpg");
                         background-size:fit;
-                        background-color:#eeffdd;
+                      
                         }
                  
                 .st-emotion-cache-bm2z3a {
