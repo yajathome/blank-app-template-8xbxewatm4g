@@ -44,7 +44,8 @@ st.markdown("""
                 .st-emotion-cache-6qob1r {
                         backdrop-filter:blur(10px);
                         color:black;
-                        background-image:url("https://static.vecteezy.com/system/resources/previews/006/033/433/non_2x/organic-abstract-minimalist-pastel-background-with-leaves-free-vector.jpg");
+                        background: rgb(99,161,84);
+                        background: linear-gradient(90deg, rgba(99,161,84,1) 0%, rgba(238,255,221,1) 100%);
                         background-size:cover;
                         }
                  
