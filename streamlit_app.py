@@ -44,8 +44,10 @@ st.markdown("""
                 .st-emotion-cache-6qob1r {
                         backdrop-filter:blur(10px);
                         color:black;
-                        background-image:url("https://img.freepik.com/premium-photo/close-up-colorful-abstract-background-with-wavy-shapes-generative-ai_791316-67096.jpg?w=1060");
+                        #background-image:url("https://img.freepik.com/premium-photo/close-up-colorful-abstract-background-with-wavy-shapes-generative-ai_791316-67096.jpg?w=1060");
                         background-size:cover;
+                        background: rgb(26,203,104);
+                        background: linear-gradient(0deg, rgba(26,203,104,1) 7%, rgba(43,183,95,1) 41%, rgba(0,168,31,1) 98%);
                         }
                  
                 .st-emotion-cache-bm2z3a {
